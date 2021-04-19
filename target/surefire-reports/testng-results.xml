@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" ignored="0" total="20" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39096" started-at="2021-04-19T11:34:57 IST" finished-at="2021-04-19T11:35:36 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39096" started-at="2021-04-19T11:34:57 IST" finished-at="2021-04-19T11:35:36 IST">
+      <class name="com.api.tests.CreateTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.tests.CreateTest@1c3a4799]" name="setUp" is-config="true" duration-ms="0" started-at="2021-04-19T11:35:28 IST" finished-at="2021-04-19T11:35:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createSuccess()[pri:0, instance:com.api.tests.CreateTest@1c3a4799]" name="createSuccess" duration-ms="771" started-at="2021-04-19T11:35:28 IST" description="Verify successful Create scenario" finished-at="2021-04-19T11:35:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSuccess -->
+        <test-method status="FAIL" signature="createWithMissingJob()[pri:0, instance:com.api.tests.CreateTest@1c3a4799]" name="createWithMissingJob" duration-ms="740" started-at="2021-04-19T11:35:28 IST" description="Verify Create request with missing job" finished-at="2021-04-19T11:35:29 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.api.tests.CreateTest.createWithMissingJob(CreateTest.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWithMissingJob -->
+        <test-method status="FAIL" signature="createWithMissingName()[pri:0, instance:com.api.tests.CreateTest@1c3a4799]" name="createWithMissingName" duration-ms="749" started-at="2021-04-19T11:35:29 IST" description="Verify Create request with missing name" finished-at="2021-04-19T11:35:30 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.api.tests.CreateTest.createWithMissingName(CreateTest.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWithMissingName -->
+        <test-method status="FAIL" signature="createWithMissingNameAndJob()[pri:0, instance:com.api.tests.CreateTest@1c3a4799]" name="createWithMissingNameAndJob" duration-ms="1806" started-at="2021-04-19T11:35:30 IST" description="Verify Create request with missing name and job" finished-at="2021-04-19T11:35:32 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.api.tests.CreateTest.createWithMissingNameAndJob(CreateTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWithMissingNameAndJob -->
+      </class> <!-- com.api.tests.CreateTest -->
+      <class name="com.api.tests.GetUserListTest">
+        <test-method status="PASS" signature="verifyGetSingleUser()[pri:0, instance:com.api.tests.GetUserListTest@26aa12dd]" name="verifyGetSingleUser" duration-ms="333" started-at="2021-04-19T11:35:35 IST" description="verify get single user" finished-at="2021-04-19T11:35:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetSingleUser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.tests.GetUserListTest@26aa12dd]" name="setUp" is-config="true" duration-ms="0" started-at="2021-04-19T11:35:35 IST" finished-at="2021-04-19T11:35:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyGetSingleUserNotFound()[pri:0, instance:com.api.tests.GetUserListTest@26aa12dd]" name="verifyGetSingleUserNotFound" duration-ms="333" started-at="2021-04-19T11:35:35 IST" description="verify get single user not found" finished-at="2021-04-19T11:35:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetSingleUserNotFound -->
+        <test-method status="PASS" signature="verifyGetUserList()[pri:0, instance:com.api.tests.GetUserListTest@26aa12dd]" name="verifyGetUserList" duration-ms="957" started-at="2021-04-19T11:35:35 IST" description="Verify get user List" finished-at="2021-04-19T11:35:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUserList -->
+      </class> <!-- com.api.tests.GetUserListTest -->
+      <class name="com.api.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.tests.LoginTest@694e1548]" name="setUp" is-config="true" duration-ms="0" started-at="2021-04-19T11:35:24 IST" finished-at="2021-04-19T11:35:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginIfEmailAndPasswordMissing()[pri:0, instance:com.api.tests.LoginTest@694e1548]" name="loginIfEmailAndPasswordMissing" duration-ms="790" started-at="2021-04-19T11:35:24 IST" description="Login with email id and password both are missing" finished-at="2021-04-19T11:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIfEmailAndPasswordMissing -->
+        <test-method status="PASS" signature="loginIfEmailIdInvalid()[pri:0, instance:com.api.tests.LoginTest@694e1548]" name="loginIfEmailIdInvalid" duration-ms="748" started-at="2021-04-19T11:35:25 IST" description="Login with invalid email id" finished-at="2021-04-19T11:35:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIfEmailIdInvalid -->
+        <test-method status="PASS" signature="verifyFailedLogin()[pri:0, instance:com.api.tests.LoginTest@694e1548]" name="verifyFailedLogin" duration-ms="740" started-at="2021-04-19T11:35:25 IST" description="Login with missing password" finished-at="2021-04-19T11:35:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFailedLogin -->
+        <test-method status="FAIL" signature="verifyIfIncorrectPassword()[pri:0, instance:com.api.tests.LoginTest@694e1548]" name="verifyIfIncorrectPassword" duration-ms="776" started-at="2021-04-19T11:35:26 IST" description="Login with incorrect password" finished-at="2021-04-19T11:35:27 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [400] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [400] but found [200]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.api.tests.LoginTest.verifyIfIncorrectPassword(LoginTest.java:94)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfIncorrectPassword -->
+        <test-method status="PASS" signature="verifySuccessfulLogin()[pri:0, instance:com.api.tests.LoginTest@694e1548]" name="verifySuccessfulLogin" duration-ms="714" started-at="2021-04-19T11:35:27 IST" description="Login with correct email and password" finished-at="2021-04-19T11:35:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogin -->
+      </class> <!-- com.api.tests.LoginTest -->
+      <class name="com.api.tests.RegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.tests.RegistrationTest@7d0587f1]" name="setUp" is-config="true" duration-ms="458" started-at="2021-04-19T11:34:57 IST" finished-at="2021-04-19T11:34:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:com.api.tests.RegistrationTest@7d0587f1]" name="registration" duration-ms="23659" started-at="2021-04-19T11:34:58 IST" description="verify successful registration" finished-at="2021-04-19T11:35:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="registrationWithInvalidEmail()[pri:0, instance:com.api.tests.RegistrationTest@7d0587f1]" name="registrationWithInvalidEmail" duration-ms="846" started-at="2021-04-19T11:35:21 IST" description="verify Registration with Invalid Email id" finished-at="2021-04-19T11:35:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithInvalidEmail -->
+        <test-method status="PASS" signature="registrationWithMissingEmailAndPassword()[pri:0, instance:com.api.tests.RegistrationTest@7d0587f1]" name="registrationWithMissingEmailAndPassword" duration-ms="799" started-at="2021-04-19T11:35:22 IST" description="verify Registration with Missing email and password both" finished-at="2021-04-19T11:35:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMissingEmailAndPassword -->
+        <test-method status="PASS" signature="registrationWithMissingPassword()[pri:0, instance:com.api.tests.RegistrationTest@7d0587f1]" name="registrationWithMissingPassword" duration-ms="814" started-at="2021-04-19T11:35:23 IST" description="verify Registration with Missing password" finished-at="2021-04-19T11:35:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithMissingPassword -->
+      </class> <!-- com.api.tests.RegistrationTest -->
+      <class name="com.api.tests.DeleteUserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.api.tests.DeleteUserTest@131276c2]" name="setUp" is-config="true" duration-ms="0" started-at="2021-04-19T11:35:32 IST" finished-at="2021-04-19T11:35:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteSuccessful()[pri:0, instance:com.api.tests.DeleteUserTest@131276c2]" name="deleteSuccessful" duration-ms="755" started-at="2021-04-19T11:35:32 IST" description="Verify successful delete user" finished-at="2021-04-19T11:35:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSuccessful -->
+        <test-method status="FAIL" signature="deleteWithInvalidFormatParam()[pri:0, instance:com.api.tests.DeleteUserTest@131276c2]" name="deleteWithInvalidFormatParam" duration-ms="703" started-at="2021-04-19T11:35:32 IST" description="Verify delete request with invalid format param id" finished-at="2021-04-19T11:35:33 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [400] but found [204]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [400] but found [204]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.api.tests.DeleteUserTest.deleteWithInvalidFormatParam(DeleteUserTest.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWithInvalidFormatParam -->
+        <test-method status="FAIL" signature="deleteWithInvalidIdParam()[pri:0, instance:com.api.tests.DeleteUserTest@131276c2]" name="deleteWithInvalidIdParam" duration-ms="804" started-at="2021-04-19T11:35:33 IST" description="Verify delete request with invalid param id" finished-at="2021-04-19T11:35:34 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [400] but found [204]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [400] but found [204]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.api.tests.DeleteUserTest.deleteWithInvalidIdParam(DeleteUserTest.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWithInvalidIdParam -->
+        <test-method status="FAIL" signature="deleteWithMissingIdParam()[pri:0, instance:com.api.tests.DeleteUserTest@131276c2]" name="deleteWithMissingIdParam" duration-ms="713" started-at="2021-04-19T11:35:34 IST" description="Verify delete request with missing param id" finished-at="2021-04-19T11:35:35 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [400] but found [204]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [400] but found [204]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at com.api.tests.DeleteUserTest.deleteWithMissingIdParam(DeleteUserTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWithMissingIdParam -->
+      </class> <!-- com.api.tests.DeleteUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num attn">7</td><td class="num">39,096</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.api.tests.CreateTest</td><td><a href="#m0">createWithMissingJob</a></td><td rowspan="1">1618812328841</td><td rowspan="1">740</td></tr><tr class="failedeven"><td><a href="#m1">createWithMissingName</a></td><td rowspan="1">1618812329581</td><td rowspan="1">749</td></tr><tr class="failedeven"><td><a href="#m2">createWithMissingNameAndJob</a></td><td rowspan="1">1618812330346</td><td rowspan="1">1806</td></tr><tr class="failedodd"><td rowspan="3">com.api.tests.DeleteUserTest</td><td><a href="#m3">deleteWithInvalidFormatParam</a></td><td rowspan="1">1618812332907</td><td rowspan="1">703</td></tr><tr class="failedodd"><td><a href="#m4">deleteWithInvalidIdParam</a></td><td rowspan="1">1618812333610</td><td rowspan="1">804</td></tr><tr class="failedodd"><td><a href="#m5">deleteWithMissingIdParam</a></td><td rowspan="1">1618812334414</td><td rowspan="1">713</td></tr><tr class="failedeven"><td rowspan="1">com.api.tests.LoginTest</td><td><a href="#m6">verifyIfIncorrectPassword</a></td><td rowspan="1">1618812326563</td><td rowspan="1">776</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.api.tests.CreateTest</td><td><a href="#m7">createSuccess</a></td><td rowspan="1">1618812328055</td><td rowspan="1">771</td></tr><tr class="passedodd"><td rowspan="1">com.api.tests.DeleteUserTest</td><td><a href="#m8">deleteSuccessful</a></td><td rowspan="1">1618812332152</td><td rowspan="1">755</td></tr><tr class="passedeven"><td rowspan="3">com.api.tests.GetUserListTest</td><td><a href="#m9">verifyGetSingleUser</a></td><td rowspan="1">1618812335127</td><td rowspan="1">333</td></tr><tr class="passedeven"><td><a href="#m10">verifyGetSingleUserNotFound</a></td><td rowspan="1">1618812335460</td><td rowspan="1">333</td></tr><tr class="passedeven"><td><a href="#m11">verifyGetUserList</a></td><td rowspan="1">1618812335793</td><td rowspan="1">957</td></tr><tr class="passedodd"><td rowspan="4">com.api.tests.LoginTest</td><td><a href="#m12">loginIfEmailAndPasswordMissing</a></td><td rowspan="1">1618812324285</td><td rowspan="1">790</td></tr><tr class="passedodd"><td><a href="#m13">loginIfEmailIdInvalid</a></td><td rowspan="1">1618812325075</td><td rowspan="1">748</td></tr><tr class="passedodd"><td><a href="#m14">verifyFailedLogin</a></td><td rowspan="1">1618812325823</td><td rowspan="1">740</td></tr><tr class="passedodd"><td><a href="#m15">verifySuccessfulLogin</a></td><td rowspan="1">1618812327341</td><td rowspan="1">714</td></tr><tr class="passedeven"><td rowspan="4">com.api.tests.RegistrationTest</td><td><a href="#m16">registration</a></td><td rowspan="1">1618812298157</td><td rowspan="1">23659</td></tr><tr class="passedeven"><td><a href="#m17">registrationWithInvalidEmail</a></td><td rowspan="1">1618812321818</td><td rowspan="1">846</td></tr><tr class="passedeven"><td><a href="#m18">registrationWithMissingEmailAndPassword</a></td><td rowspan="1">1618812322664</td><td rowspan="1">799</td></tr><tr class="passedeven"><td><a href="#m19">registrationWithMissingPassword</a></td><td rowspan="1">1618812323463</td><td rowspan="1">814</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.api.tests.CreateTest#createWithMissingJob</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CreateTest.createWithMissingJob(CreateTest.java:68)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.api.tests.CreateTest#createWithMissingName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CreateTest.createWithMissingName(CreateTest.java:55)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.api.tests.CreateTest#createWithMissingNameAndJob</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CreateTest.createWithMissingNameAndJob(CreateTest.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.api.tests.DeleteUserTest#deleteWithInvalidFormatParam</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [204]
+	at com.api.tests.DeleteUserTest.deleteWithInvalidFormatParam(DeleteUserTest.java:46)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.api.tests.DeleteUserTest#deleteWithInvalidIdParam</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [204]
+	at com.api.tests.DeleteUserTest.deleteWithInvalidIdParam(DeleteUserTest.java:35)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.api.tests.DeleteUserTest#deleteWithMissingIdParam</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [204]
+	at com.api.tests.DeleteUserTest.deleteWithMissingIdParam(DeleteUserTest.java:24)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.api.tests.LoginTest#verifyIfIncorrectPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [200]
+	at com.api.tests.LoginTest.verifyIfIncorrectPassword(LoginTest.java:94)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.api.tests.CreateTest#createSuccess</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.api.tests.DeleteUserTest#deleteSuccessful</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.api.tests.GetUserListTest#verifyGetSingleUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.api.tests.GetUserListTest#verifyGetSingleUserNotFound</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.api.tests.GetUserListTest#verifyGetUserList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.api.tests.LoginTest#loginIfEmailAndPasswordMissing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.api.tests.LoginTest#loginIfEmailIdInvalid</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.api.tests.LoginTest#verifyFailedLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.api.tests.LoginTest#verifySuccessfulLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.api.tests.RegistrationTest#registration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.api.tests.RegistrationTest#registrationWithInvalidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.api.tests.RegistrationTest#registrationWithMissingEmailAndPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.api.tests.RegistrationTest#registrationWithMissingPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

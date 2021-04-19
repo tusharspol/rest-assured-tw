@@ -1,0 +1,6 @@
+com\api\tests\HttpInterceptor.class
+com\api\tests\GetUserListTest.class
+com\api\tests\DeleteUserTest.class
+com\api\tests\LoginTest.class
+com\api\tests\CreateTest.class
+com\api\tests\RegistrationTest.class

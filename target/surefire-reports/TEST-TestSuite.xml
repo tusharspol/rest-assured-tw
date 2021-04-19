@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="40.511" tests="20" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Projects\docs\Practice\target\test-classes;C:\Projects\docs\Practice\target\classes;C:\Users\e070000\.m2\repository\io\rest-assured\rest-assured\3.0.0\rest-assured-3.0.0.jar;C:\Users\e070000\.m2\repository\org\codehaus\groovy\groovy\2.4.6\groovy-2.4.6.jar;C:\Users\e070000\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.6\groovy-xml-2.4.6.jar;C:\Users\e070000\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\e070000\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\e070000\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\e070000\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\e070000\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\e070000\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\e070000\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\e070000\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\e070000\.m2\repository\io\rest-assured\json-path\3.0.0\json-path-3.0.0.jar;C:\Users\e070000\.m2\repository\org\codehaus\groovy\groovy-json\2.4.6\groovy-json-2.4.6.jar;C:\Users\e070000\.m2\repository\io\rest-assured\rest-assured-common\3.0.0\rest-assured-common-3.0.0.jar;C:\Users\e070000\.m2\repository\io\rest-assured\xml-path\3.0.0\xml-path-3.0.0.jar;C:\Users\e070000\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\e070000\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\e070000\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\e070000\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\e070000\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\e070000\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\e070000\.m2\repository\com\google\truth\truth\1.1.2\truth-1.1.2.jar;C:\Users\e070000\.m2\repository\com\google\guava\guava\30.1-android\guava-30.1-android.jar;C:\Users\e070000\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\e070000\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\e070000\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\e070000\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\e070000\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\e070000\.m2\repository\org\checkerframework\checker-qual\3.9.1\checker-qual-3.9.1.jar;C:\Users\e070000\.m2\repository\com\google\auto\value\auto-value-annotations\1.7.4\auto-value-annotations-1.7.4.jar;C:\Users\e070000\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\e070000\.m2\repository\org\ow2\asm\asm\9.0\asm-9.0.jar;C:\Users\e070000\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\e070000\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\e070000\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\e070000\AppData\Local\Temp\1\surefire4961102437488677970\surefirebooter5222043719211383346.jar C:\Users\e070000\AppData\Local\Temp\1\surefire4961102437488677970 2021-04-19T11-34-55_087-jvmRun1 surefire3686118852634448750tmp surefire_02067243028076483696tmp"/>
+    <property name="surefire.test.class.path" value="C:\Projects\docs\Practice\target\test-classes;C:\Projects\docs\Practice\target\classes;C:\Users\e070000\.m2\repository\io\rest-assured\rest-assured\3.0.0\rest-assured-3.0.0.jar;C:\Users\e070000\.m2\repository\org\codehaus\groovy\groovy\2.4.6\groovy-2.4.6.jar;C:\Users\e070000\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.6\groovy-xml-2.4.6.jar;C:\Users\e070000\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\e070000\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\e070000\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\e070000\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\e070000\.m2\repository\org\apache\httpcomponents\httpmime\4.5.1\httpmime-4.5.1.jar;C:\Users\e070000\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\e070000\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\e070000\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\e070000\.m2\repository\io\rest-assured\json-path\3.0.0\json-path-3.0.0.jar;C:\Users\e070000\.m2\repository\org\codehaus\groovy\groovy-json\2.4.6\groovy-json-2.4.6.jar;C:\Users\e070000\.m2\repository\io\rest-assured\rest-assured-common\3.0.0\rest-assured-common-3.0.0.jar;C:\Users\e070000\.m2\repository\io\rest-assured\xml-path\3.0.0\xml-path-3.0.0.jar;C:\Users\e070000\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\e070000\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\e070000\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\e070000\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\e070000\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\e070000\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\e070000\.m2\repository\com\google\truth\truth\1.1.2\truth-1.1.2.jar;C:\Users\e070000\.m2\repository\com\google\guava\guava\30.1-android\guava-30.1-android.jar;C:\Users\e070000\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\e070000\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\e070000\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\e070000\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\e070000\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\e070000\.m2\repository\org\checkerframework\checker-qual\3.9.1\checker-qual-3.9.1.jar;C:\Users\e070000\.m2\repository\com\google\auto\value\auto-value-annotations\1.7.4\auto-value-annotations-1.7.4.jar;C:\Users\e070000\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\e070000\.m2\repository\org\ow2\asm\asm\9.0\asm-9.0.jar;C:\Users\e070000\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\e070000\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\e070000\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\e070000"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="basedir" value="C:\Projects\docs\Practice"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\e070000\AppData\Local\Temp\1\surefire4961102437488677970\surefirebooter5222043719211383346.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="user.name" value="e070000"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\e070000\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\e070000\AppData\Local\Temp\1\"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="user.dir" value="C:\Projects\docs\Practice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\oracle\product\11.2.0\client_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Plantronics\Spokes3G\;C:\Program Files (x86)\Apache\Maven\\bin;C:\Program Files\Git\cmd;C:\Users\e070000\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="registration" classname="com.api.tests.RegistrationTest" time="23.738">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 Apr 2021 06:05:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+Set-Cookie: __cfduid=d492fcb929e92efe1456805a814f331511618812320; expires=Wed, 19-May-21 06:05:20 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54d3bf00001d634b87a000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=IDBPbCW86YEgvqhodwCA1uiHAaqMyS063uKZKwnnh9Ckq7YTee88I4ftDQTQnlcZO%2F9mngcvXvcdEoN%2F9ICoInkOpuCpQQg7uOk%3D"}],"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6423f0cc6a8d1d63-NRT
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithInvalidEmail" classname="com.api.tests.RegistrationTest" time="0.93">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 19 Apr 2021 06:05:22 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Connection: keep-alive
+Set-Cookie: __cfduid=ddac06b556aff2d3906434dce46c62b331618812322; expires=Wed, 19-May-21 06:05:22 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54d947000019d546870000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=oRi0Wg2HXU%2BCSigV6GqqcytLRyMvdrfXnBhOrHjQp7DEUF7%2BsORvZLWmXee%2Fg%2BFStn80OTEx98u1nygNozOyZd47cwyMA3uYe9w%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6423f0d53ad119d5-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "Missing password"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMissingEmailAndPassword" classname="com.api.tests.RegistrationTest" time="0.731">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 19 Apr 2021 06:05:23 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+Connection: keep-alive
+Set-Cookie: __cfduid=da92dce10cae16772bfc942a18a2775401618812322; expires=Wed, 19-May-21 06:05:22 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"25-Ik70kof1lbc973ShN5FoVPxYn7A"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54dc9d0000dcfa69b3e000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=SNWz%2FsoUiDgyngumUJ%2Fu3nSRzJcdSweQQbhmMUJ4w1X6Z7zhya05V3HptDzlx4D%2FSuzH%2FkBRWewI8zSYypR1J2KGjmK30ko6SRs%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6423f0da9ec2dcfa-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "Missing email or username"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="registrationWithMissingPassword" classname="com.api.tests.RegistrationTest" time="0.798">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "vrushaspol@gmail.com"
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 19 Apr 2021 06:05:24 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Connection: keep-alive
+Set-Cookie: __cfduid=df4e6f1d3451ec53d9d33c7acc23be0981618812323; expires=Wed, 19-May-21 06:05:23 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54dfc90000d9b4de181000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=di0ky50P%2FxjnjiQ7XP44ynX5UXqj%2FgZh2vIz05F7V%2BWv3ms5zTojlRfqLKukZOkk1QHD3QJtAnOSE49aykCgoX36k%2FSt5KNdd50%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6423f0dfad35d9b4-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "Note: Only defined users succeed registration"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginIfEmailAndPasswordMissing" classname="com.api.tests.LoginTest" time="0.771">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "password": "",
+    "email": ""
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 19 Apr 2021 06:05:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 37
+Connection: keep-alive
+Set-Cookie: __cfduid=d241a17b86d7ae533cd872a0f64396db41618812324; expires=Wed, 19-May-21 06:05:24 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"25-Ik70kof1lbc973ShN5FoVPxYn7A"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54e300000017a3f7807000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=X1WM5%2FCxDxvoEta2IUt2m9Ww585eJklxSCIHtGHH0uduwN7oVlGWpKcvQffmQ%2FQ47LFEef2rhGLOAsUP0w3GqRkWvu0ooN62gAs%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6423f0e4cde017a3-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "Missing email or username"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginIfEmailIdInvalid" classname="com.api.tests.LoginTest" time="0.733">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "password": "cityslicka",
+    "email": "test@abc.com"
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 19 Apr 2021 06:05:25 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 26
+Connection: keep-alive
+Set-Cookie: __cfduid=d75ed9c5402ac32b370cdd0f2968efb311618812325; expires=Wed, 19-May-21 06:05:25 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54e5ec0000d98c8c969000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=PGaePxMHwRar1dKa8klW8uWct9Oe8fH9trFRvVguoWdSe03wiLnYp1uWM7tgO92CzNDCOMmr1i3sdrc1wtvIY8V813j5qs5Vgvo%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6423f0e97b67d98c-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "user not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="verifyFailedLogin" classname="com.api.tests.LoginTest" time="0.771">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "password": "",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 19 Apr 2021 06:05:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Connection: keep-alive
+Set-Cookie: __cfduid=de67ff2d4f5c86dad623c7412150ec11e1618812326; expires=Wed, 19-May-21 06:05:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54e8e6000017b34335a000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Ut0cn%2B%2FW5S37D9iN4zBIM4DP8fAIh3AvYe1xKib%2FJ%2B8jRppfxEYdvDT7jN0xtZ7I0Surw5XAq%2B3DstfyiVYGPfuOcsqmeSaJj7A%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6423f0ee3d8217b3-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "Missing password"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="verifyIfIncorrectPassword" classname="com.api.tests.LoginTest" time="0.758">
+    <failure message="expected [400] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [400] but found [200]
+	at com.api.tests.LoginTest.verifyIfIncorrectPassword(LoginTest.java:94)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "password": "password@123",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 Apr 2021 06:05:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+Set-Cookie: __cfduid=d057ebe675ad9783d83aa398104ec92421618812326; expires=Wed, 19-May-21 06:05:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54ebce0000da00a53e0000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=DIpDgx4eDTHKcoQCBahS9NbiKMtXKfclPU9oY2w1jIKT0QE449Ls2SpiIleh1BMV%2BfWNBQj7MW6uc9%2F927WcU%2FPXgL1ilQXkA7Y%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6423f0f2ea13da00-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="verifySuccessfulLogin" classname="com.api.tests.LoginTest" time="0.718">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "password": "cityslicka",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 200 OK
+Date: Mon, 19 Apr 2021 06:05:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+Set-Cookie: __cfduid=d49a7b9bc2bfe654be9ceb82d9116a2241618812327; expires=Wed, 19-May-21 06:05:27 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54eed90000174cc9033000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=RJN16%2FbPkI6r31ecsvbkTAOpgJ6Lb80lJ2G4FyoprhTEDDrqMGqWLdjfhWEPs3Y2Nrae1kD2WQ1%2Fgpi5T40NVudD8JcmlnQujEo%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6423f0f79c12174c-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createSuccess" classname="com.api.tests.CreateTest" time="0.787">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Mon, 19 Apr 2021 06:05:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+Set-Cookie: __cfduid=d570486f1fc95bf4d7c6308de50ddc6e81618812328; expires=Wed, 19-May-21 06:05:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-C9vm9r1D5rJnk/4Bh/LEfy6TkK0"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54f18c0000cc0c1e2bc000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=QLaE28hP0kSboX5N%2F1WVYvCMil8%2B20RS%2FaSUBh60asnhVSnlWQkROa%2FyK40Eg8tU4kRPnkpRKgzDppDHDmEgvG6iKAm97fObup4%3D"}]}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6423f0fc1dbacc0c-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "884",
+    "createdAt": "2021-04-19T06:05:28.678Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createWithMissingJob" classname="com.api.tests.CreateTest" time="0.749">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CreateTest.createWithMissingJob(CreateTest.java:68)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "morpheus"
+}
+HTTP/1.1 201 Created
+Date: Mon, 19 Apr 2021 06:05:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 69
+Connection: keep-alive
+Set-Cookie: __cfduid=d93060684d612859946eada8a36d305101618812329; expires=Wed, 19-May-21 06:05:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"45-dSorZzqSOf45n+Rz6XkxlQ7Cis8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54f4a8000056582f349000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=c2aOavoFQP%2Bapv3VWMUeBEmjfr3Gj4hJqDfKFzo%2FoLaTjqWMEAM7MJagyYzOI%2FG0IuB3um40OHEXHdn9%2FhOeaHGqo1i4xhjZxCU%3D"}],"max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6423f1010a355658-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "morpheus",
+    "id": "924",
+    "createdAt": "2021-04-19T06:05:29.438Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createWithMissingName" classname="com.api.tests.CreateTest" time="0.74">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CreateTest.createWithMissingName(CreateTest.java:55)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Mon, 19 Apr 2021 06:05:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 66
+Connection: keep-alive
+Set-Cookie: __cfduid=d0f1d5dd9e5a67b94553475e87896e3191618812329; expires=Wed, 19-May-21 06:05:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"42-dw40WDz+Pg38eAi7twmO8HSB9z8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54f7990000dceee8089000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=%2FSHOpJux81DWAIRzttiSNNeamASdgRs2C1njEpjC8Sckf%2F6cQ%2Bj2vIkeme3XKNZ1slC2r4iNslBfC5L%2BbavEOuqQBOqPpiRZbdM%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6423f105cf4edcee-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "job": "leader",
+    "id": "193",
+    "createdAt": "2021-04-19T06:05:30.209Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createWithMissingNameAndJob" classname="com.api.tests.CreateTest" time="1.821">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CreateTest.createWithMissingNameAndJob(CreateTest.java:42)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    
+}
+HTTP/1.1 201 Created
+Date: Mon, 19 Apr 2021 06:05:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 51
+Connection: keep-alive
+Set-Cookie: __cfduid=d8e24ca37f36fae7840a77630b34ab26d1618812330; expires=Wed, 19-May-21 06:05:30 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"33-UJE4F0PaJS0/eCpP8iMbI7eD1ao"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 098a54fa8c0000e25baba63000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=4xUy8iGIJMDXw6%2FTGHFmKpQKklYOAVbQWdw5grLpww3YgmaRAiy15J6k9515uBal1o30Qgw2iUupHku2zDWM05WSXfAosiC5GeI%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6423f10a7d88e25b-SIN
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": "918",
+    "createdAt": "2021-04-19T06:05:30.967Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteSuccessful" classname="com.api.tests.DeleteUserTest" time="0.718">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://reqres.in/api/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="deleteWithInvalidFormatParam" classname="com.api.tests.DeleteUserTest" time="0.702">
+    <failure message="expected [400] but found [204]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [400] but found [204]
+	at com.api.tests.DeleteUserTest.deleteWithInvalidFormatParam(DeleteUserTest.java:46)
+]]></failure>
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://reqres.in/api/users/abc
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="deleteWithInvalidIdParam" classname="com.api.tests.DeleteUserTest" time="0.799">
+    <failure message="expected [400] but found [204]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [400] but found [204]
+	at com.api.tests.DeleteUserTest.deleteWithInvalidIdParam(DeleteUserTest.java:35)
+]]></failure>
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://reqres.in/api/users/10
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="deleteWithMissingIdParam" classname="com.api.tests.DeleteUserTest" time="0.719">
+    <failure message="expected [400] but found [204]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [400] but found [204]
+	at com.api.tests.DeleteUserTest.deleteWithMissingIdParam(DeleteUserTest.java:24)
+]]></failure>
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://reqres.in/api/users/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="verifyGetSingleUser" classname="com.api.tests.GetUserListTest" time="0.332">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users/1
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="verifyGetSingleUserNotFound" classname="com.api.tests.GetUserListTest" time="0.333">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users/20
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="verifyGetUserList" classname="com.api.tests.GetUserListTest" time="0.973">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	page=2
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+</testsuite>

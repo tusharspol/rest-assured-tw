@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 40.511 s <<< FAILURE! - in TestSuite
+com.api.tests.LoginTest.verifyIfIncorrectPassword  Time elapsed: 0.758 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [200]
+	at com.api.tests.LoginTest.verifyIfIncorrectPassword(LoginTest.java:94)
+
+com.api.tests.CreateTest.createWithMissingJob  Time elapsed: 0.749 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CreateTest.createWithMissingJob(CreateTest.java:68)
+
+com.api.tests.CreateTest.createWithMissingName  Time elapsed: 0.74 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CreateTest.createWithMissingName(CreateTest.java:55)
+
+com.api.tests.CreateTest.createWithMissingNameAndJob  Time elapsed: 1.821 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.tests.CreateTest.createWithMissingNameAndJob(CreateTest.java:42)
+
+com.api.tests.DeleteUserTest.deleteWithInvalidFormatParam  Time elapsed: 0.702 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [204]
+	at com.api.tests.DeleteUserTest.deleteWithInvalidFormatParam(DeleteUserTest.java:46)
+
+com.api.tests.DeleteUserTest.deleteWithInvalidIdParam  Time elapsed: 0.799 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [204]
+	at com.api.tests.DeleteUserTest.deleteWithInvalidIdParam(DeleteUserTest.java:35)
+
+com.api.tests.DeleteUserTest.deleteWithMissingIdParam  Time elapsed: 0.719 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [204]
+	at com.api.tests.DeleteUserTest.deleteWithMissingIdParam(DeleteUserTest.java:24)
+
